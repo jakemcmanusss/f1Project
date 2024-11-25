@@ -1,7 +1,6 @@
 const localProxy = 'https://ergast.com/api/f1/';
 
 
-
 // Function to handle errors
 function handleError(section, message) {
     const sectionElement = document.querySelector(section + ' tbody');
@@ -156,6 +155,7 @@ async function fetchNextRace() {
     }
 }
 
+
 // Countdown Timer
 function startCountdown(raceDate, raceTime) {
     const raceDateTime = new Date(`${raceDate}T${raceTime}`);
@@ -201,12 +201,6 @@ async function fetchDriversForSimulation() {
     }
 }
 
-// Attach event listener for the View Calendar button
-document.getElementById('view-calendar-btn').addEventListener('click', () => {
-    // Open the schedules in a new window
-    window.open('https://www.formula1.com/en/racing/2024.html', '_blank');
-    window.open('https://www.formula1.com/en/racing/2025.html', '_blank');
-});
 
 // Close modal functionality
 document.getElementById('close-modal').addEventListener('click', function() {

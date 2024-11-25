@@ -145,13 +145,14 @@ footer {
 }
 
 .simulation-container {
-    width: 100%; /* Full width */
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
-    margin-top: 20px; /* Add some spacing from the top */
+    margin: 20px; /* Margin around the section */
+    border: 1px solid #ccc; /* Optional border */
+    padding: 20px; /* Padding inside */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* Background color */
 }
+
 
 .simulation-result {
     text-align: center; /* Center text */
@@ -167,6 +168,8 @@ footer {
 .driver-selection label {
     margin-right: 10px; /* Add space between label and dropdown */
 }
+
+
 
 
 
